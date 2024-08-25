@@ -11,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head><title>21BCE11452</title></head>
       <body className={inter.className}>{children}</body>
     </html>
   );
